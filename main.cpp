@@ -3,7 +3,7 @@
 int main() {
 int i;
 
-for(i = 0; i < 100; i++) {
+for(i = 0; i < 10; i++) {
   if(i % 5 == 0)
   continue;
   printf("%d", i);
